@@ -80,11 +80,15 @@ const Projects = () => {
                             </li>
                         </ul>
                         <div>
-                            <a href="">
-                            <i className="fa-brands fa-medium"></i>
+                        <a href="">
+                                <BsMedium 
+                                    className="fa-brands fa-medium"
+                                />
                             </a>
                             <a href="">
-                            <i className="fa-brands fa-github"></i>
+                                <BsGithub 
+                                    className="fa-brands fa-github"
+                                />
                             </a>
                         </div>
                     </div>
@@ -123,11 +127,15 @@ const Projects = () => {
                             </li>
                         </ul>
                         <div>
-                            <a href="">
-                            <i className="fa-brands fa-medium"></i>
-                            </a>
-                            <a href="">
-                            <i className="fa-brands fa-github"></i>
+                        <a href="">
+                                <BsMedium 
+                                    className="fa-brands fa-medium"
+                                />
+                        </a>
+                        <a href="">
+                                <BsGithub 
+                                    className="fa-brands fa-github"
+                                />
                             </a>
                         </div>
                     </div>
@@ -163,11 +171,15 @@ const Projects = () => {
                             </li>
                         </ul>
                         <div>
-                            <a href="">
-                            <i className="fa-brands fa-medium"></i>
+                        <a href="">
+                                <BsMedium 
+                                    className="fa-brands fa-medium"
+                                />
                             </a>
                             <a href="">
-                            <i className="fa-brands fa-github"></i>
+                                <BsGithub 
+                                    className="fa-brands fa-github"
+                                />
                             </a>
                         </div>
                     </div>

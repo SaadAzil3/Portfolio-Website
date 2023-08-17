@@ -985,6 +985,11 @@ ul{
 /*******Responsive Menu*******/
 
 @media(max-width: 900px){
+  .social-icon,
+  .res-left-side,
+  .res-right-side{
+    display: none;
+  }
   .res-menu{
     position: absolute;
     top: 0;

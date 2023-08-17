@@ -31,7 +31,9 @@ export default function Home() {
             animate= {{opacity: 1}}
             transition={{delay: 1.5}}
             className="res-left-side">
-         <LeftSide />
+         <LeftSide 
+
+         />
         </motion.div>
         <div className="middle-side">
           <Banner />
