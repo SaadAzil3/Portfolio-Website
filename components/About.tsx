@@ -1,6 +1,6 @@
 import React from "react";
 import Section from "./Section";
-
+import {AiFillThunderbolt} from "react-icons/ai";
 const About = () => {
     return (
         <section className="about-section" id="about">
@@ -18,22 +18,34 @@ const About = () => {
                     </div>
                     <ul className="skills-section">
                         <li className="skills-icon">
-                        <i className="fa-solid fa-bolt"></i> Networking
+                        <AiFillThunderbolt 
+                            className="fa-solid fa-bolt"
+                        /> Networking
                         </li>
                         <li className="skills-icon">
-                        <i className="fa-solid fa-bolt"></i> Linux System Admin
+                        <AiFillThunderbolt 
+                            className="fa-solid fa-bolt"
+                        /> Linux System Admin
                         </li>
                         <li className="skills-icon">
-                        <i className="fa-solid fa-bolt"></i> Ethical Hacking
+                        <AiFillThunderbolt 
+                            className="fa-solid fa-bolt"
+                        /> Ethical Hacking
                         </li>
                         <li className="skills-icon">
-                        <i className="fa-solid fa-bolt"></i> Penetration testing
+                        <AiFillThunderbolt 
+                            className="fa-solid fa-bolt"
+                        /> Penetration testing
                         </li>
                         <li className="skills-icon">
-                        <i className="fa-solid fa-bolt"></i> Web App Security
+                        <AiFillThunderbolt 
+                            className="fa-solid fa-bolt"
+                        /> Web App Security
                         </li>
                         <li className="skills-icon">
-                        <i className="fa-solid fa-bolt"></i> Python/C++/Java
+                        <AiFillThunderbolt 
+                            className="fa-solid fa-bolt"
+                        /> Python/C++/Java
                         </li>
                     </ul>
                 </div>

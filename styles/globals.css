@@ -516,7 +516,7 @@ ul{
   gap: 0.5rem;
 }
 
-.skills-icon i{
+.skills-icon .fa-bolt{
   color: var(--textGreen);
   margin-right: 5px;
 }

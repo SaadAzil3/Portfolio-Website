@@ -1,6 +1,7 @@
 import React from "react";
 import Section from "./Section";
 import Image from "next/image";
+import {BsGithub,BsMedium,BsInstagram,BsLinkedin} from "react-icons/bs";
 import { keylogger, password, active, wireshark } from "@/public/assets";
 const Projects = () => {
     return (
@@ -39,10 +40,14 @@ const Projects = () => {
                         </ul>
                         <div>
                             <a href="">
-                            <i className="fa-brands fa-medium"></i>
+                                <BsMedium 
+                                    className="fa-brands fa-medium"
+                                />
                             </a>
                             <a href="">
-                            <i className="fa-brands fa-github"></i>
+                                <BsGithub 
+                                    className="fa-brands fa-github"
+                                />
                             </a>
                         </div>
                     </div>

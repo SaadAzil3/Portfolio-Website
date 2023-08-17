@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import {FaShare} from "react-icons/fa";
 const Certifications = () => {
     return(
         <motion.div
@@ -16,15 +16,21 @@ const Certifications = () => {
             </p>
             <ul>
                 <li>
-                    <i className="fa-solid fa-share"></i>
+                    <FaShare
+                        className="fa-solid fa-share"
+                    />
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, tenetur.
                 </li>
                 <li>
-                    <i className="fa-solid fa-share"></i>
+                    <FaShare
+                        className="fa-solid fa-share"
+                    />
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, tenetur.
                 </li>
                 <li>
-                    <i className="fa-solid fa-share"></i>
+                    <FaShare
+                        className="fa-solid fa-share"
+                    />
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, tenetur.
                 </li>
             </ul>
