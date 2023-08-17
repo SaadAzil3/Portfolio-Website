@@ -1055,3 +1055,12 @@ ul{
   
 
 }
+
+@media(min-width: 900px){
+  .res-menu,
+  .menu-icon,
+  .animation-menu div,
+  .animation-menu .fa-solid{
+    display: none;
+  }
+}

@@ -9,7 +9,7 @@ const About = () => {
                 <div>
                     <div className="desc">
                         <p>
-                        I'm Saad Azil, a third-year Computer Science student specializing in Network and Security. I'm passionate about programming and cybersecurity, particularly in mobile and web app pentesting and Ethical Hacking.
+                            I am Saad Azil, a third-year Computer Science student specializing in Network and Security. I am passionate about programming and cybersecurity, particularly in mobile and web app pentesting and Ethical Hacking.
                         </p>
                         <p>
                             I love Sharing my Experiences and my knowledge with others, Actually I have an Medium account in which I post my diary as a computer science student and my experiences with CTF and educationall articles. 

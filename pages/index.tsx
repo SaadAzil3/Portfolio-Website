@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
     <Head>
-    <script src="https://kit.fontawesome.com/2284adfd25.js"></script>
+    
     <link rel="shortcut icon" href="./public/favicon.ico" />
       <title>Saad Azil</title>
     </Head>

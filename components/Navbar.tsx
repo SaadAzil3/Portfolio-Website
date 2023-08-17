@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import {motion} from "framer-motion";
 import {useRef, useState} from "react"
+import {BsGithub,BsMedium,BsInstagram,BsLinkedin} from "react-icons/bs";
 const Navbar = () => {
     const ref = useRef<string | any>();
     const [showMenu, setShowMenu] = useState(false)
@@ -184,42 +185,51 @@ const Navbar = () => {
                             </div>
                             <div className="social-icon-footer menu-icon">
             <div className="icons-bar">
-                <motion.a
-                    initial= {{y:20, opacity: 0}}
-                    animate= {{y:0, opacity: 1}}
-                    transition= {{duration:0.3, delay: 0.8}}
-                     href="https://github.com/SaadAzil3" target="_blank">
-                    <span className="icon">
-                        <i className="fa-brands fa-github"></i> 
-                    </span>
-                </motion.a>
-                <motion.a
-                    initial= {{y:20, opacity: 0}}
-                    animate= {{y:0, opacity: 1}}
-                    transition= {{duration:0.3, delay: 0.9}}
-                    href="https://www.linkedin.com/in/saad-azil-1349aa250/" target="_blank">
-                    <span className="icon">
-                        <i className="fa-brands fa-linkedin"></i> 
-                    </span>
-                </motion.a>
-                <motion.a 
-                    initial= {{y:20, opacity: 0}}
-                    animate= {{y:0, opacity: 1}}
-                    transition= {{duration:0.3, delay: 1}}
-                    href="https://medium.com/@azilsaad06" target="_blank">
-                    <span className="icon">
-                    <i className="fa-brands fa-medium"></i> 
-                    </span>
-                </motion.a>
-                <motion.a 
-                    initial= {{y:20, opacity: 0}}
-                    animate= {{y:0, opacity: 1}}
-                    transition= {{duration:0.3, delay:1.1}}
-                    href="https://www.instagram.com/azil.saad.3/" target="_blank">
-                    <span className="icon">
-                    <i className="fa-brands fa-instagram"></i> 
-                    </span>
-                </motion.a>
+            <motion.a 
+    initial= {{y:20, opacity: 0}}
+    animate= {{y:0, opacity: 1}}
+    transition= {{duration:0.3, delay: 0.8}}
+    href="https://github.com/SaadAzil3" target="_blank">
+    <span className="icon">            
+        <BsGithub 
+            className="fa-brands fa-github"
+        />
+    </span>
+</motion.a>
+<motion.a
+    initial= {{y:20, opacity: 0}}
+    animate= {{y:0, opacity: 1}}
+    transition= {{duration:0.3, delay: 0.9}}
+    href="https://www.linkedin.com/in/saad-azil-1349aa250/" target="_blank">
+    <span className="icon">
+        <BsLinkedin
+            className="fa-brands fa-linkedin"
+        />
+                        
+    </span>
+</motion.a>
+<motion.a 
+    initial= {{y:20, opacity: 0}}
+    animate= {{y:0, opacity: 1}}
+    transition= {{duration:0.3, delay: 1}}
+    href="https://medium.com/@azilsaad06" target="_blank">
+    <span className="icon">
+        <BsMedium 
+            className="fa-brands fa-medium"
+        /> 
+    </span>
+</motion.a>
+<motion.a 
+    initial= {{y:20, opacity: 0}}
+    animate= {{y:0, opacity: 1}}
+    transition= {{duration:0.3, delay: 1.1}}
+    href="https://www.instagram.com/azil.saad.3/" target="_blank">
+    <span className="icon">
+        <BsInstagram 
+            className="fa-brands fa-instagram"
+        />
+    </span>
+</motion.a>
 
             </div>
             </div>
