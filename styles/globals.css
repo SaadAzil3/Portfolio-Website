@@ -3,10 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-  scroll-behavior: smooth;
-}
-
 /*Google Font Variables*/
 
 :root{

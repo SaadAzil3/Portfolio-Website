@@ -4,6 +4,7 @@ import Link from "next/link";
 import {motion} from "framer-motion";
 import {useRef, useState} from "react"
 import {BsGithub,BsMedium,BsInstagram,BsLinkedin} from "react-icons/bs";
+import {ImCross} from "react-icons/im";
 const Navbar = () => {
     const ref = useRef<string | any>();
     const [showMenu, setShowMenu] = useState(false)
@@ -115,11 +116,11 @@ const Navbar = () => {
                             transition= {{duration: 0.1}}
                             className="animation-menu"
                         >
-                            <i
+                            <ImCross
                                 onClick={() => {setShowMenu(false)}}
-                                className="fa-solid fa-xmark">
+                                className="fa-solid fa-xmark"
                                 
-                            </i>
+                            />
                             <div>
                             <ul className="flex ">
                     <Link 

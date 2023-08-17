@@ -1,5 +1,6 @@
 import React from "react-dom"
-
+import {AiOutlineFolder} from "react-icons/ai"
+import {FaShareSquare} from "react-icons/fa"
 interface Props{
     title: string
     desc: string
@@ -12,8 +13,12 @@ const ArchiveCards = ({title, desc, listItem, link}: Props) => {
         <a href={link} target="_blank">
             <div className="card">
             <div className="cards-icons">
-                <i className="fa-regular fa-folder icon"></i>
-                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                <AiOutlineFolder 
+                    className="fa-regular fa-folder icon"
+                />
+                <FaShareSquare 
+                    className="fa-solid fa-arrow-up-right-from-square"
+                />
             </div>
             <div >
                 <h2 className="card-title">
