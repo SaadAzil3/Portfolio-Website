@@ -8,7 +8,7 @@ const Archive = () => {
     return (
         <div className="archive-section">
             <div className="archive-container">
-                <h2 className="title">Other Noteworthy Projects</h2>
+                <h2 className="title">Some Things I have Built</h2>
                 <p className="sub-title">view the archive</p>
             </div>
             <div className="cards-project">

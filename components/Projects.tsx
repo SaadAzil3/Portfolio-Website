@@ -26,10 +26,10 @@ const Projects = () => {
                         </p>
                         <ul className="tech-used">
                             <li>
-                                Kali Linux
+                                Linux
                             </li>
                             <li>
-                                Window Active Directory
+                                Window
                             </li>
                             <li>
                                 PowerShell
@@ -66,21 +66,27 @@ const Projects = () => {
                             Featured Project
                         </p>
                         <h3>
-                            Advanced Keylogger
+                            Active Directory Exploit
                         </h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. A aperiam, debitis facilis non, ea maiores quibusdam neque repellendus illum omnis nesciunt beatae itaque voluptatum ad nemo praesentium fugiat qui sapiente!
                         </p>
                         <ul className="tech-used">
                             <li>
-                                Python
+                                Linux
                             </li>
                             <li>
-                                Linux
+                                Window
+                            </li>
+                            <li>
+                                PowerShell
+                            </li>
+                            <li>
+                                BashScript
                             </li>
                         </ul>
                         <div>
-                        <a href="">
+                            <a href="">
                                 <BsMedium 
                                     className="fa-brands fa-medium"
                                 />
@@ -107,7 +113,7 @@ const Projects = () => {
                             Featured Project
                         </p>
                         <h3>
-                            Network Traffic Analyst
+                            Active Directory Exploit
                         </h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. A aperiam, debitis facilis non, ea maiores quibusdam neque repellendus illum omnis nesciunt beatae itaque voluptatum ad nemo praesentium fugiat qui sapiente!
@@ -120,19 +126,19 @@ const Projects = () => {
                                 Window
                             </li>
                             <li>
-                                Wireshark
+                                PowerShell
                             </li>
                             <li>
                                 BashScript
                             </li>
                         </ul>
                         <div>
-                        <a href="">
+                            <a href="">
                                 <BsMedium 
                                     className="fa-brands fa-medium"
                                 />
-                        </a>
-                        <a href="">
+                            </a>
+                            <a href="">
                                 <BsGithub 
                                     className="fa-brands fa-github"
                                 />
@@ -154,24 +160,27 @@ const Projects = () => {
                             Featured Project
                         </p>
                         <h3>
-                            Password Manager
+                            Active Directory Exploit
                         </h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. A aperiam, debitis facilis non, ea maiores quibusdam neque repellendus illum omnis nesciunt beatae itaque voluptatum ad nemo praesentium fugiat qui sapiente!
                         </p>
                         <ul className="tech-used">
                             <li>
-                                Python
+                                Linux
                             </li>
                             <li>
-                                Tkinter
+                                Window
                             </li>
                             <li>
-                                SQL
+                                PowerShell
+                            </li>
+                            <li>
+                                BashScript
                             </li>
                         </ul>
                         <div>
-                        <a href="">
+                            <a href="">
                                 <BsMedium 
                                     className="fa-brands fa-medium"
                                 />

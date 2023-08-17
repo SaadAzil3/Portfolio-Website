@@ -30,13 +30,6 @@ const LeftSide = () => {
                     
                     </span>
                 </a>
-                <a href="https://www.instagram.com/azil.saad.3/" target="_blank">
-                    <span className="icon">
-                        <BsInstagram 
-                            className="fa-brands fa-instagram"
-                        />
-                    </span>
-                </a>
             </div>
             <div className="before-icons"></div>
         </div>

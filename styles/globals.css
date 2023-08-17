@@ -452,6 +452,32 @@ ul{
   border-width: 1px;
 }
 
+@media (max-width: 350px) {
+  .home-section .top-title
+  {
+    font-size: 0.6rem;
+  }
+  .home-section .middle-title{
+    font-size: 1.3rem;
+    margin-top: 5px;
+  }
+  .middle-side{
+    margin-top: 10rem;
+  }
+
+  .middle-title-p{
+    font-size: 0.7rem;
+    margin-top: 0px;
+  }
+
+  .home-section .button-resume{
+    font-size: 0.65rem;
+    margin-top: -10px;
+  }
+
+}
+
+
 /*About Sectio*/
 
 .about-section{
@@ -521,6 +547,8 @@ ul{
   margin-right: 5px;
 }
 
+
+
 @media (max-width: 800px) {
 
   .about-section .about-title{
@@ -540,6 +568,45 @@ ul{
     width: 100%;
   }
  
+  
+}
+@media (max-width: 400px){
+  .skills-section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills-section .skills-icon{
+    margin-top: 5px;
+  }
+  .about-section{
+    margin-left: -13%;
+    
+  }
+  .about-section .about-text .desc {
+    width: 140%;
+  }
+}
+@media (max-width: 350px) {
+  .about-section .about-title{
+    font-size: 1rem;
+  }
+
+  .about-section .about-title span{
+    font-size: 0.7rem;
+  }
+
+  .about-section .about-text div{
+    font-size: 0.7rem;
+  }
+
+  .about-section{
+    width: 100%;
+  }
+  .skills-section{
+    font-size: 0.7rem;
+  }
+
 }
 
 /*Experience Section*/
@@ -632,6 +699,13 @@ ul{
   margin-right: 10px;
 }
 
+.fa-share{
+  color: var(--textGreen);
+  font-size: 1.5rem;
+  margin-right: 5px;
+  margin-bottom: -10px;
+}
+
 @media (max-width: 800px) {
   .ex-section {
     flex-direction: column;
@@ -643,6 +717,21 @@ ul{
   .first-ex ul{
     width: 100%;
   }
+}
+
+@media (max-width: 350px) {
+  .ex-section ul li{
+    font-size: 0.65rem;
+  }
+  .first-ex h3{
+    font-size: 0.65rem;
+    font-weight: bold;
+  }
+  .first-ex p{
+    font-size: 0.65rem;
+    font-weight: bold;
+  }
+
 }
 
 
@@ -739,6 +828,28 @@ ul{
   }
 }
 
+@media (max-width: 350px) {
+  .project-section .img-comtainer .project-img{
+    width: 100%;
+    margin: auto;
+  }
+  
+  .project-section .project-desc .title{
+    font-size: 0.7rem;
+  }
+  .project-section .project-desc .tech-used{
+    font-size: 0.5rem;
+  }
+  .project-section .project-desc div{
+    font-size: 1rem;
+  }
+  .project-section .project-desc p{
+    font-size: 0.7rem;
+  }
+  .project-section .project-desc h3{
+    font-size: 1rem;
+  }
+}
 
 /*************************************/
 
@@ -868,7 +979,23 @@ ul{
   background-color: var(--hoverColor);
 }
 
-
+@media (max-width: 350px) {
+  .archive-section .title{
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .archive-section .cards-project .card-title{
+    font-size: 01rem;
+    font-weight: bold;
+  }
+  .archive-section .cards-project p{
+    font-size: 0.75rem;
+  }
+  .archive-section .cards-project .card .tech-used{
+    font-size: 0.5rem;
+  }
+}
+ 
 @media (min-width: 768px) {
   .archive-section .cards-project{
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -939,7 +1066,17 @@ ul{
 .contact-section button:hover{
   background-color: var(--hoverColor);
 }
-
+@media (max-width: 350px){
+  .contact-section .title{
+    font-size: 0.9rem;
+  }
+  .contact-section h2{
+    font-size: 1.5rem;
+  }
+  .contact-section p{
+    font-size: 0.85rem;
+  }
+}
 
 /*Footer Section*/
 .social-icon-footer .icons-bar{
@@ -975,6 +1112,14 @@ ul{
   }
 }
 
+@media (max-width: 350px){
+  .social-icon-footer .icons-bar .icon{
+    font-size: 1.3rem;
+    
+  }
+
+  
+}
 
 
 /************************/
@@ -1055,6 +1200,15 @@ ul{
 
   
 
+}
+
+@media(max-width: 350px){
+  .animation-menu div .flex{
+    font-size: 0.8rem;
+  }
+  .animation-menu div .button-resume{
+    font-size: 0.8rem;
+  }
 }
 
 @media(min-width: 900px){

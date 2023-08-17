@@ -220,17 +220,7 @@ const Navbar = () => {
         /> 
     </span>
 </motion.a>
-<motion.a 
-    initial= {{y:20, opacity: 0}}
-    animate= {{y:0, opacity: 1}}
-    transition= {{duration:0.3, delay: 1.1}}
-    href="https://www.instagram.com/azil.saad.3/" target="_blank">
-    <span className="icon">
-        <BsInstagram 
-            className="fa-brands fa-instagram"
-        />
-    </span>
-</motion.a>
+
 
             </div>
             </div>
