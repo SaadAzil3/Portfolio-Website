@@ -8,13 +8,13 @@ const Banner = () => {
             <motion.h3 
                 initial= {{y:10, opacity: 0}}
                 animate= {{y:0, opacity: 1}}
-                transition= {{duration: 0.5, delay: 0.6}}
+                transition= {{duration: 0.5, delay: 2.6}}
                 className="top-title">Hi, my name is
             </motion.h3>
             <motion.h1
                 initial= {{y:10, opacity: 0}}
                 animate= {{y:0, opacity: 1}}
-                transition= {{duration: 0.5, delay: 0.7}}
+                transition= {{duration: 0.5, delay: 2.7}}
                 className="middle-title"
             >
                 Saad Azil. <span className="middle-title-span">Computer Science Student.</span>
@@ -22,7 +22,7 @@ const Banner = () => {
             <motion.p
                 initial= {{y:10, opacity: 0}}
                 animate= {{y:0, opacity: 1}}
-                transition= {{duration: 0.5, delay: 0.8}}
+                transition= {{duration: 0.5, delay: 2.8}}
                 className="middle-title-p"
             >
                 computer science student at the University of Bejaia, a programmer. I am interested in the field of cybersecurity and penetration testing. I find great joy in sharing my experiences with others. Every day, I strive to expand my knowledge and experience in this field.
@@ -36,7 +36,7 @@ const Banner = () => {
             <motion.button 
                 initial= {{y:10, opacity: 0}}
                 animate= {{y:0, opacity: 1}}
-                transition= {{duration: 0.5, delay: 0.9}}
+                transition= {{duration: 0.5, delay: 2.9}}
                 className="button-resume color-btn" >
                 Check out my Projects!
             </motion.button>

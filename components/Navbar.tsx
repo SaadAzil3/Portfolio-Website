@@ -4,6 +4,8 @@ import Link from "next/link";
 import {motion} from "framer-motion";
 import {useRef, useState} from "react"
 import {BsGithub,BsMedium,BsInstagram,BsLinkedin} from "react-icons/bs";
+import {TbHexagonLetterS} from "react-icons/tb";
+import {AiOutlineLoading3Quarters} from "react-icons/ai"
 import {ImCross} from "react-icons/im";
 const Navbar = () => {
     const ref = useRef<string | any>();
@@ -31,7 +33,10 @@ const Navbar = () => {
                     animate= {{opacity: 1}}
                     transition={{duration: 0.5}}
                 >
-                    <Image src={logo} alt="logo" className="saadlogo"/>
+                    <div className="saadlogo letter-logo">
+                        <TbHexagonLetterS />
+                    </div>
+                    
                 </motion.div>
             </div>
             <div className="navBig">
@@ -230,6 +235,22 @@ const Navbar = () => {
                 )
             }
         </div>
+        <motion.div 
+            animate={{ y: -3000 }}
+            transition={{ delay: 2.5 }}
+            className="reload-animation">
+            <motion.div
+                
+            >
+                <TbHexagonLetterS 
+                />
+                
+            </motion.div>
+            <AiOutlineLoading3Quarters 
+            
+                className="loading"
+            />
+        </motion.div>
     </div>
     );
 };
