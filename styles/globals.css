@@ -584,7 +584,7 @@ ul{
     
   }
   .about-section .about-text .desc {
-    width: 140%;
+    width: 130%;
   }
 }
 @media (max-width: 350px) {
@@ -635,8 +635,8 @@ ul{
   padding-top: 0.75rem; /* 3/4 of the default font size */
   padding-bottom: 0.75rem;
   font-size: 0.875rem;
-  padding-left: 2rem; /* 8 times the default spacing unit */
-  padding-right: 2rem;
+  padding-left: 1.5rem; /* 8 times the default spacing unit */
+  padding-right: 2.2rem;
   color: var(--textDark);
 }
 
