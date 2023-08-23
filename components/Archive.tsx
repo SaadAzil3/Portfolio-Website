@@ -36,6 +36,18 @@ const Archive = () => {
                 listItem={["Linux", "Windows", "Python"]}
                 link="" 
                 />
+                <ArchiveCards 
+                title="ReactBD web development company"
+                desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis."
+                listItem={["Linux", "Windows", "Python"]}
+                link="" 
+                />
+                <ArchiveCards 
+                title="ReactBD web development company"
+                desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis."
+                listItem={["Linux", "Windows", "Python"]}
+                link="" 
+                />
                 {
                     showMore && (
                         <>

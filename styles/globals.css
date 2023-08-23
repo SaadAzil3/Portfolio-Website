@@ -58,6 +58,8 @@ main{
   overflow-y: scroll;
 }
 
+
+
 /*nav bar*/
 
 .navbar{
@@ -313,16 +315,27 @@ ul{
   }
 }
 
-@media(max-width: 1280px){
+@media(max-width: 1440px){
   .res-right-side{
+    position: fixed;
+    display: inline-flex;
+    width: 8rem;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+  }
+  .res-left-side{
     display: inline-flex;
     width: 8rem;
     height: 100%;
     position: fixed;
-    right: 0;
+    left: 0;
     bottom: 0;
   }
+
+  
 }
+
 
 
 .middle-side{
@@ -734,6 +747,15 @@ ul{
 
 }
 
+@media(max-width: 1440px){
+  .fa-share{
+    color: var(--textGreen);
+    font-size: 1rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 2px;
+  }
+}
 
 /*Projects Section*/
 
