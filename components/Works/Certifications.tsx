@@ -19,19 +19,7 @@ const Certifications = () => {
                     <FaShare
                         className="fa-solid fa-share"
                     />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, tenetur.
-                </li>
-                <li>
-                    <FaShare
-                        className="fa-solid fa-share"
-                    />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, tenetur.
-                </li>
-                <li>
-                    <FaShare
-                        className="fa-solid fa-share"
-                    />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, tenetur.
+                    Python (Basic) programming certificate from Hackerrank <a className="cert-link" target="_blank" href="https://www.hackerrank.com/certificates/e1c937e2be84">see Certificate</a>
                 </li>
             </ul>
         </motion.div>

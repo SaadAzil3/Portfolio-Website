@@ -1303,3 +1303,10 @@ ul{
   border-radius: 16px;
   background-color: black;
 }
+
+
+.cert-link{
+  color: var(--textGreen);
+  margin-left: 10px;
+  font-weight: 600;
+}
