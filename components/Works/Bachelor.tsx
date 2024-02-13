@@ -19,19 +19,7 @@ const Bachelor = () => {
                     <FaShare
                         className="fa-solid fa-share"
                     />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, tenetur.
-                </li>
-                <li>
-                    <FaShare
-                        className="fa-solid fa-share"
-                    />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, tenetur.
-                </li>
-                <li>
-                    <FaShare
-                        className="fa-solid fa-share"
-                    />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, tenetur.
+                    3rd Year Computer Science Student @University Of Bejaia specialized in Network and Security
                 </li>
             </ul>
         </motion.div>
