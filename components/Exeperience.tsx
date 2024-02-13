@@ -23,7 +23,7 @@ const Experience = () => {
                 <ul>
                     <li onClick={handleBachelor} className={`${workBachelor ? "focus" : "ex-focus"} ex-focus`}>
                         
-                        Bachelor Degree
+                        Education
                     </li>
                     <li onClick={handleCert} className={`${workCert ? "focus" : "ex-focus"} ex-focus`}>
                         
