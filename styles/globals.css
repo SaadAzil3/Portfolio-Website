@@ -1306,6 +1306,7 @@ ul{
 
 
 .cert-link{
+  display: inline;
   color: var(--textGreen);
   margin-left: 10px;
   font-weight: 600;
