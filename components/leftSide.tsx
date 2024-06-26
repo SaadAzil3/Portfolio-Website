@@ -3,7 +3,12 @@ import React from "react"
 const LeftSide = () => {
     return (
         <div className="tryhackme">
-            <img src="https://tryhackme-badges.s3.amazonaws.com/azilXs3.png" alt="TryHackMe">
+            <div className="web-name">
+                <h3>TryHackMe</h3>
+            </div>
+            <div className="web-logo">
+                 <img src="https://tryhackme-badges.s3.amazonaws.com/azilXs3.png" alt="TryHackMe">
+            </div>
         </div>
         <div className="social-icon">
             <div className="icons-bar">
