@@ -2,6 +2,9 @@ import {BsGithub,BsMedium,BsInstagram,BsLinkedin} from "react-icons/bs";
 import React from "react"
 const LeftSide = () => {
     return (
+        <div className="tryhackme">
+            <img src="https://tryhackme-badges.s3.amazonaws.com/azilXs3.png" alt="TryHackMe">
+        </div>
         <div className="social-icon">
             <div className="icons-bar">
                 <a href="https://github.com/SaadAzil3" target="_blank">
