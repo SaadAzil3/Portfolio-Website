@@ -22,20 +22,7 @@ const Bachelor = () => {
                     3rd Year Computer Science Student @University Of Bejaia specialized in Network and Security
                 </li>
             </ul>
-            <h3 >
-                Master Degree <span> @Univ of Bejaia</span>
-            </h3>  
-            <p>
-                Sep 2024 - Present
-            </p>
-            <ul>
-                <li>
-                    <FaShare
-                        className="fa-solid fa-share"
-                    />
-                    3rd Year Computer Science Student @University Of Bejaia specialized in Network and Security
-                </li>
-            </ul>
+            
         </motion.div>
     );
 }
