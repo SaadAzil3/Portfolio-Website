@@ -9,14 +9,19 @@ const About = () => {
                 <div>
                     <div className="desc">
                         <p>
-                            I am Saad Azil, a third-year Computer Science student specializing in Network and Security. I am passionate about programming and cybersecurity, particularly in mobile and web app pentesting and Ethical Hacking.
+                            I am currently pursuing my master's degree in Network Administration and Security at the University of Bejaia. With a deep passion for cybersecurity, I am focused on learning and developing skills in penetration testing.
+
                         </p>
                         <p>
-                            I love Sharing my Experiences and my knowledge with others, Actually I have an Medium account in which I post my diary as a computer science student and my experiences with CTF and educationall articles. 
-                        </p>
+                             Every day, I dedicate myself to expanding my knowledge in this field by learning new techniques, tools, and methodologies. I actively participate in Capture The Flag (CTF) competitions and Hackathons to gain hands-on experience, improve my problem-solving abilities, and stay updated with the latest trends in cybersecurity.
                         <p>Here are a few technologies and skills I have been working with recently:</p>
                     </div>
                     <ul className="skills-section">
+                        <li className="skills-icon">
+                        <AiFillThunderbolt 
+                            className="fa-solid fa-bolt"
+                        /> Vulnerability Assessment
+                        </li>
                         <li className="skills-icon">
                         <AiFillThunderbolt 
                             className="fa-solid fa-bolt"
@@ -25,7 +30,7 @@ const About = () => {
                         <li className="skills-icon">
                         <AiFillThunderbolt 
                             className="fa-solid fa-bolt"
-                        /> Linux System Admin
+                        /> Operating Systems (Linux, Windows)
                         </li>
                         <li className="skills-icon">
                         <AiFillThunderbolt 
@@ -40,7 +45,7 @@ const About = () => {
                         <li className="skills-icon">
                         <AiFillThunderbolt 
                             className="fa-solid fa-bolt"
-                        /> Web App Security
+                        /> Web Pentesting
                         </li>
                         <li className="skills-icon">
                         <AiFillThunderbolt 
